@@ -23,7 +23,7 @@ import java.util.*;
     CGPA=sum/(n*10);// Divided by 10 as CGPA cannot exceed 10
     System.out.println("Total sum:"+ sum);
     System.out.println("CGPA:"+ CGPA);
-    System.out.println("Percentage Marks:"+ (CGPA*9.50)+”%”);
+    System.out.println("Percentage Marks:"+ (CGPA*9.50));
     if (CGPA>=9.00){
         System.out.println("Grade: A+");
     }
